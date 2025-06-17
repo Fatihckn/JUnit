@@ -37,7 +37,6 @@ public class UserServiceImpl implements UserService {
             throw new UserServiceException(e.getMessage());
         }
 
-
         if(!isUserCreated){
             throw new UserServiceException("Could not create User");
         }
